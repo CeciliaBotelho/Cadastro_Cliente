@@ -1,0 +1,43 @@
+/* Estilos gerais da página */
+body {
+    background-image: url('background.jpg'); /* Certifique-se de ajustar o caminho conforme a sua estrutura de diretórios */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilos para a caixa de fundo */
+.background-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o texto e elementos dentro da caixa */
+}
+
+/* Ajusta o espaçamento entre os botões e suas bordas arredondadas */
+.btn-group .btn {
+    margin-right: 5px;
+    border-radius: 20px; /* Bordas arredondadas para os botões */
+}
+
+.btn-group .btn:last-child {
+    margin-right: 0;
+}
+
+/* Estilos para os campos do formulário */
+.form-control {
+    border-radius: 20px; /* Bordas arredondadas para os campos */
+    margin-bottom: 15px; /* Espaçamento abaixo de cada campo */
+    width: 80%; /* Ajusta a largura para ser menos larga */
+    padding: 12px 20px; /* Aumenta o padding para os campos parecerem mais "gordinhos" */
+    display: block; /* Garante que o campo ocupe sua própria linha */
+    margin-left: auto; /* Centraliza o campo */
+    margin-right: auto; /* Centraliza o campo */
+}
+
+/* Estilização adicional para botões caso necessário */
+.btn-primary, .btn-danger, .btn-secondary {
+    border-radius: 20px; /* Assegura que todos os botões tenham bordas arredondadas */
+    padding: 10px 24px; /* Ajusta o padding para tornar os botões mais "gordinhos" */
+}
+

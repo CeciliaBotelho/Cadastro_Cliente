@@ -1,0 +1,40 @@
+/* style.css */
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+.form-control{
+    border: none;
+    border-radius: 20px;
+    padding: 0.8rem; /* padding mais razoável */
+    font-size: 1rem;
+    width: 80%; /* largura ajustada para ocupar mais espaço */
+    max-width: 450px; /* você pode ajustar este valor para a largura máxima desejada */
+    margin-bottom: 1rem; /* Espaço entre os campos */
+    display: block; /* Garante que os elementos ocupem sua própria linha */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+}
+
+
+.btn-primary {
+    border: none;
+    border-radius: 20px;
+    padding: 0.8rem; /* padding mais razoável */
+    font-size: 1rem;
+    width: 80%; /* largura ajustada para ocupar mais espaço */
+    max-width: 450px; /* você pode ajustar este valor para a largura máxima desejada */
+    margin-bottom: 1rem; /* Espaço entre os campos */
+    display: block; /* Garante que os elementos ocupem sua própria linha */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+    background-color: #041d38;
+}
+
+.btn-primary:hover {
+    background-color: #004190;
+}
