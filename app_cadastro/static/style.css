@@ -1,40 +1,52 @@
-/* style.css */
 
-
-body, html {
-    height: 100%;
-    margin: 0;
+.registration-container {
+    background-color: rgba(255, 255, 255, 0.5); /* Branco com transparência */
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaço acima do contêiner */
 }
 
 
-.form-control{
-    border: none;
-    border-radius: 20px;
-    padding: 0.8rem; /* padding mais razoável */
+.form-control {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
     font-size: 1rem;
-    width: 80%; /* largura ajustada para ocupar mais espaço */
-    max-width: 450px; /* você pode ajustar este valor para a largura máxima desejada */
-    margin-bottom: 1rem; /* Espaço entre os campos */
-    display: block; /* Garante que os elementos ocupem sua própria linha */
-    margin-left: auto; /* Centraliza horizontalmente */
-    margin-right: auto; /* Centraliza horizontalmente */
 }
 
+.form-control:focus {
+    border-color: #3060f0;
+    box-shadow: 0 0 8px 0 rgba(48, 96, 240, 0.2);
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
 
 .btn-primary {
-    border: none;
-    border-radius: 20px;
-    padding: 0.8rem; /* padding mais razoável */
-    font-size: 1rem;
-    width: 80%; /* largura ajustada para ocupar mais espaço */
-    max-width: 450px; /* você pode ajustar este valor para a largura máxima desejada */
-    margin-bottom: 1rem; /* Espaço entre os campos */
-    display: block; /* Garante que os elementos ocupem sua própria linha */
-    margin-left: auto; /* Centraliza horizontalmente */
-    margin-right: auto; /* Centraliza horizontalmente */
-    background-color: #041d38;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .btn-primary:hover {
-    background-color: #004190;
+    background-color: #333333;
+}
+
+.btn-secondary {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn-secondary:hover {
+    background-color: #e6e6e6;
+}
+
+.font-cadastro {
+    color: #ffffff; /* Adapte esta cor conforme a cor do seu texto */
 }
