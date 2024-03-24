@@ -3,7 +3,6 @@ from app_cadastro.fuzzy import calcular_credito
 
 class FuzzyTestCase(TestCase):
     def test_calculate_credit(self):
-        # Teste para verificar se a função calcular_credito retorna um valor válido
         # Teste com idade jovem e renda alta
         credito1 = calcular_credito(idade=25, renda_mensal=25000)
         self.assertTrue(credito1 >= 1500 and credito1 <= 60000)

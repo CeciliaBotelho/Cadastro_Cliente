@@ -13,7 +13,6 @@ def usuarios(request):
             nome=request.POST.get('nome'),
             idade=idade,
             renda_mensal=renda_mensal,
-            # O crédito é calculado diretamente aqui, não precisamos chamar save() duas vezes
             credito=calcular_credito(idade, renda_mensal)
         )
         return redirect('usuarios:listagem_usuarios')
@@ -23,11 +22,8 @@ def usuarios(request):
 
 
 def deletar_usuario(request, id_usuario):
-    # Busca o usuário no banco de dados
     usuario = get_object_or_404(Usuario, id_usuario=id_usuario)
-    # Deleta o usuário
     usuario.delete()
-    # Redireciona para a página de listagem de usuários após a exclusão
     return redirect('listagem_usuarios')
 
 def editar_usuario(request, id_usuario):
@@ -37,7 +33,6 @@ def editar_usuario(request, id_usuario):
         usuario.nome = request.POST.get('nome')
         usuario.idade = int(request.POST.get('idade', 0))
         usuario.renda_mensal = float(request.POST.get('renda_mensal', 0))
-        # Recalcular o crédito após editar
         usuario.credito = calcular_credito(usuario.idade, usuario.renda_mensal)
         usuario.save()
         
