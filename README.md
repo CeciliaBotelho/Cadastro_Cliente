@@ -35,9 +35,9 @@ python manage.py migrate
 
 ## Rodando os Testes
 
-Testes são uma parte crucial do desenvolvimento de software, garantindo que sua aplicação continue funcionando corretamente após mudanças e novas funcionalidades. No Django, você pode rodar os testes para seu projeto utilizando o seguinte comando:
+Testes são uma parte importante do desenvolvimento de software, garantindo que sua aplicação continue funcionando corretamente após mudanças e novas funcionalidades. No Django, você pode rodar os testes para seu projeto utilizando o seguinte comando:
 
-python manage.py tests
+python manage.py test
 
 Este comando irá procurar por arquivos de teste em seu projeto, executá-los e fornecer um relatório sobre os testes que passaram e os que falharam.
 
