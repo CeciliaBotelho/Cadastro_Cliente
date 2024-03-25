@@ -18,10 +18,8 @@ Siga estes passos para obter um ambiente de desenvolvimento em execução:
 
 1. Clone o repositório:
 
-git clone https://seu-repositorio-aqui
+git clone https://github.com/CeciliaBotelho/ClientRegister.git
 
-csharp
-Copy code
 
 2. Instale as dependências do projeto utilizando o pip:
 
@@ -35,10 +33,6 @@ python manage.py migrate
 
 4. Inicie o servidor de desenvolvimento:
 
-python manage.py runserver
-
-Agora, você deve ser capaz de acessar a aplicação através do endereço `http://127.0.0.1:8000/` no seu navegador.
-
 ## Rodando os Testes
 
 Testes são uma parte crucial do desenvolvimento de software, garantindo que sua aplicação continue funcionando corretamente após mudanças e novas funcionalidades. No Django, você pode rodar os testes para seu projeto utilizando o seguinte comando:
@@ -47,14 +41,9 @@ python manage.py tests
 
 Este comando irá procurar por arquivos de teste em seu projeto, executá-los e fornecer um relatório sobre os testes que passaram e os que falharam.
 
-## Construído Com
-
-- [Django](https://www.djangoproject.com/) - O framework web usado
-- [NetworkX](https://networkx.org/) - Usado para criar e manipular estruturas de dados complexas
-- [scikit-fuzzy](https://scikit-fuzzy.github.io/scikit-fuzzy/) - Usado para implementar lógica fuzzy no gerenciamento de clientes
-
 
 ## Autor
 
-- **Cecilia Botelho** - *Teste* - [CeciliaBotelho]([https://github.com/SeuPerfil](https://github.com/CeciliaBotelho))
+- **Cecilia Botelho** - *Teste* - [CeciliaBotelho](https://github.com/CeciliaBotelho)
+
 
