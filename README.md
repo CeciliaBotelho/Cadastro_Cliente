@@ -44,6 +44,6 @@ Este comando irá procurar por arquivos de teste em seu projeto, executá-los e 
 
 ## Autor
 
-- **Cecilia Botelho** - *Teste* - [CeciliaBotelho](https://github.com/CeciliaBotelho)
+- **Cecilia Botelho** - [CeciliaBotelho](https://github.com/CeciliaBotelho)
 
 
