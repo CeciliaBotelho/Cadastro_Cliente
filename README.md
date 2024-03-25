@@ -36,8 +36,10 @@ python manage.py test
 "Client Register" representa uma evolução no gerenciamento de clientes, combinando tecnologia de ponta com praticidade e eficiência operacional. Ao adotar a lógica fuzzy, o projeto não só melhora a qualidade do serviço oferecido, mas também promove uma gestão de clientes mais inteligente e adaptativa. 
 
 
-## 👤 Autor
+## 👤 Autora
 
-- **Cecilia Botelho** - [CeciliaBotelho](https://github.com/CeciliaBotelho)
+- **Cecilia Botelho** 🌟
+  - GitHub: 🐱 [CeciliaBotelho](https://github.com/CeciliaBotelho)
+  - LinkedIn: 💼 [Cecilia Botelho](https://www.linkedin.com/in/cecilia-botelho-0163871a9/)
 
 
