@@ -1,6 +1,6 @@
 # 📋 Client Register
 
-"Client Register" é uma aplicação web em Django para gerenciamento de clientes, ideal para empresas e autônomos. Facilita adicionar, atualizar, visualizar e excluir dados de clientes. Utiliza lógica fuzzy com scikit-fuzzy para decisões adaptativas, aprimorando a personalização de serviços para perfis variados de clientes.
+"Client Register" é uma aplicação web em Django para gerenciamento de clientes, ideal para empresas e autônomos. Facilita adicionar, atualizar, visualizar e excluir dados de clientes. Utiliza lógica fuzzy com scikit-fuzzy para decisões adaptativas, aprimorando a personalização de serviços para perfis variados de clientes
 
 ## 🚀 Executando o Projeto Localmente
 Siga este passo a passo para configurar e executar o projeto na sua máquina local para fins de desenvolvimento e teste.
